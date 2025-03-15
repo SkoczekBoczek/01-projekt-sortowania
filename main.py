@@ -11,7 +11,7 @@ algorithms = {
     "Shell Sort": shellSort,
     "Selection Sort": selectionSort,
     "Heap Sort": heapSort,
-    # "Quick Sort": quickSort
+    "Quick Sort": quickSort
 }
 
 inputFolder = "generated_data"
