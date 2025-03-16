@@ -24,7 +24,7 @@ def generateData(type, size):
 
 
 typesOfSort = ["random", "sorted", "reversed", "constant", "a-shaped"]
-sizes = [1000, 5000, 10000, 50000]
+sizes = [2, 4, 8, 16, 32, 64, 100, 128, 256, 512, 1024, 2048, 4096, 5000, 8192, 10000, 16384]
 
 folder = "generated_data"
 if not os.path.exists(folder):
