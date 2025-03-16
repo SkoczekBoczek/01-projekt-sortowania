@@ -14,6 +14,6 @@ Projekt generuje różne zbiory wejściowe dla algorytmów sortujących, w tym:
 ✅ **Selection Sort**  
 ✅ **Shell Sort**  
 ✅ **Heap Sort**  
-❌ **Quick Sort** 
+✅ **Quick Sort** 
 
 Celem projektu jest porównanie efektywności algorytmów w zależności od rodzaju danych wejściowych.
