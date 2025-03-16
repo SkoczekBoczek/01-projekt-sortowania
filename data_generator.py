@@ -19,12 +19,12 @@ def generateData(type, size):
         return list(range(size))[::-1]
     elif type == "constant":
         return [69] * size
-    elif type == "a-shaped":
+    elif type == "ashaped":
         return aShapeArray(size)
 
 
-typesOfSort = ["random", "sorted", "reversed", "constant", "a-shaped"]
-sizes = [2, 4, 8, 16, 32, 64, 100, 128, 256, 512, 1024, 2048, 4096, 5000, 8192, 10000, 16384]
+typesOfSort = ["random", "sorted", "reversed", "constant", "ashaped"]
+sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768]
 
 folder = "generated_data"
 if not os.path.exists(folder):

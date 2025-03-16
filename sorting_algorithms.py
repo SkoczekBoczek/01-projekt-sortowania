@@ -14,18 +14,19 @@ def insertionSort(array):
 
 # Shell sort
 def shellSort(array):
-    n = len(array)
+    arr = array.copy()
+    n = len(arr)
     interval = n // 2
     while interval > 0:
         for i in range(interval, n):
-            temp = array[i]
+            temp = arr[i]
             j = i
-            while j >= interval and array[j - interval] > temp:
-                array[j] = array[j - interval]
+            while j >= interval and arr[j - interval] > temp:
+                arr[j] = arr[j - interval]
                 j = j - interval
-            array[j] = temp
+            arr[j] = temp
         interval = interval // 2
-    return array
+    return arr
 
 # Selection sort
 def selectionSort(array):
@@ -63,57 +64,57 @@ def heapSort(array):
     return array
 
 # Quick sort left
-def quickSortLeft(arr):
-    arr_copy = arr.copy()
-    _quickSortLeft(arr_copy, 0, len(arr_copy) - 1)
-    return arr_copy 
+def quickSortLeft(array):
+    arr = array.copy()
+    _quickSortLeft(arr, 0, len(arr) - 1)
+    return arr 
 
-def _quickSortLeft(arr, low, high):
+def _quickSortLeft(array, low, high):
     if low < high:
-        pivot_index = partitionLeft(arr, low, high)
-        _quickSortLeft(arr, low, pivot_index - 1)
-        _quickSortLeft(arr, pivot_index + 1, high)
+        pivotIndex = partitionLeft(array, low, high)
+        _quickSortLeft(array, low, pivotIndex - 1)
+        _quickSortLeft(array, pivotIndex + 1, high)
 
-def partitionLeft(arr, low, high):
-    pivot = arr[low]
+def partitionLeft(array, low, high):
+    pivot = array[low]
     i = low + 1
     j = high
     while True:
-        while i <= j and arr[i] <= pivot:
+        while i <= j and array[i] <= pivot:
             i += 1
-        while i <= j and arr[j] > pivot:
+        while i <= j and array[j] > pivot:
             j -= 1
         if i >= j:
             break
-        arr[i], arr[j] = arr[j], arr[i]
-    arr[low], arr[j] = arr[j], arr[low]
+        array[i], array[j] = array[j], array[i]
+    array[low], array[j] = array[j], array[low]
     return j
 
 # Quick sort random
-def quickSortRandom(arr):
-    arr_copy = arr.copy()
-    _quickSortRandom(arr_copy, 0, len(arr_copy) - 1)
-    return arr_copy
+def quickSortRandom(array):
+    arr = array.copy()
+    _quickSortRandom(arr, 0, len(arr) - 1)
+    return arr
 
-def _quickSortRandom(arr, low, high):
+def _quickSortRandom(array, low, high):
     if low < high:
-        pivot_index = partitionRandom(arr, low, high)
-        _quickSortRandom(arr, low, pivot_index - 1)
-        _quickSortRandom(arr, pivot_index + 1, high)
+        pivotIndex = partitionRandom(array, low, high)
+        _quickSortRandom(array, low, pivotIndex - 1)
+        _quickSortRandom(array, pivotIndex + 1, high)
 
-def partitionRandom(arr, low, high):
-    pivot_index = random.randint(low, high)
-    arr[low], arr[pivot_index] = arr[pivot_index], arr[low]
-    pivot = arr[low]
+def partitionRandom(array, low, high):
+    pivotIndex = random.randint(low, high)
+    array[low], array[pivotIndex] = array[pivotIndex], array[low]
+    pivot = array[low]
     i = low + 1
     j = high
     while True:
-        while i <= j and arr[i] <= pivot:
+        while i <= j and array[i] <= pivot:
             i += 1
-        while i <= j and arr[j] > pivot:
+        while i <= j and array[j] > pivot:
             j -= 1
         if i >= j:
             break
-        arr[i], arr[j] = arr[j], arr[i]
-    arr[low], arr[j] = arr[j], arr[low]
+        array[i], array[j] = array[j], array[i]
+    array[low], array[j] = array[j], array[low]
     return j
