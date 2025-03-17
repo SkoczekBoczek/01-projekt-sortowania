@@ -16,16 +16,26 @@ def insertionSort(array):
 def shellSort(array):
     arr = array.copy()
     n = len(arr)
-    interval = n // 2
-    while interval > 0:
-        for i in range(interval, n):
+    gaps = []
+    k = 0
+    while True:
+        gap = 4**k + 3 * 2**(k-1) + 1 if k > 0 else 1
+        if gap > n:
+            break
+        gaps.append(gap)
+        k += 1
+    
+    gaps.reverse()
+    
+    for gap in gaps:
+        for i in range(gap, n):
             temp = arr[i]
             j = i
-            while j >= interval and arr[j - interval] > temp:
-                arr[j] = arr[j - interval]
-                j = j - interval
+            while j >= gap and arr[j - gap] > temp:
+                arr[j] = arr[j - gap]
+                j -= gap
             arr[j] = temp
-        interval = interval // 2
+    
     return arr
 
 # Selection sort
