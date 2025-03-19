@@ -73,7 +73,7 @@ def heapSort(array):
         heapify(array, i, 0)
     return array
 
-# Quick sort left - podział Hoare’a ✅  (❌ Lomuto Partition ❌)
+# Quick sort left - podział Hoare’a ✅ (❌ Lomuto Partition ❌)
 def quickSortLeft(array):
     arr = array.copy()
     _quickSortLeft(arr, 0, len(arr) - 1)

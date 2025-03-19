@@ -9,8 +9,8 @@ from time_measurement import TimeMeasure
 from sorting_algorithms import insertionSort, shellSort, selectionSort, heapSort, quickSortLeft, quickSortRandom
 
 typesOfSort = ["random", "sorted", "reversed", "constant", "ashaped"]
-# sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072]
-sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
+sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072]
+# sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
 
 algorithms = {
     "Insertion Sort": insertionSort,
@@ -139,6 +139,6 @@ def main():
         print()
         generate_plots()
     else:
-        print("Źle wybrałeś unlucky :( ")
+        print("Źle wybrałeś")
 
 main()
