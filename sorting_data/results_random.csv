@@ -1,0 +1,103 @@
+Algorithm,Size,Time
+Insertion Sort-random,2,0.0000319481
+Shell Sort-random,2,0.0000169277
+Selection Sort-random,2,0.0000078678
+Heap Sort-random,2,0.0000121593
+Quick Sort Left-random,2,0.0000150204
+Quick Sort Random-random,2,0.0000400543
+Insertion Sort-random,4,0.0000028610
+Shell Sort-random,4,0.0000042915
+Selection Sort-random,4,0.0000030994
+Heap Sort-random,4,0.0000069141
+Quick Sort Left-random,4,0.0000050068
+Quick Sort Random-random,4,0.0000090599
+Insertion Sort-random,8,0.0000057220
+Shell Sort-random,8,0.0000090599
+Selection Sort-random,8,0.0000071526
+Heap Sort-random,8,0.0000131130
+Quick Sort Left-random,8,0.0000100136
+Quick Sort Random-random,8,0.0000140667
+Insertion Sort-random,16,0.0000131130
+Shell Sort-random,16,0.0000140667
+Selection Sort-random,16,0.0000119209
+Heap Sort-random,16,0.0000231266
+Quick Sort Left-random,16,0.0000162125
+Quick Sort Random-random,16,0.0000221729
+Insertion Sort-random,32,0.0000309944
+Shell Sort-random,32,0.0000259876
+Selection Sort-random,32,0.0000309944
+Heap Sort-random,32,0.0000472069
+Quick Sort Left-random,32,0.0000269413
+Quick Sort Random-random,32,0.0000419617
+Insertion Sort-random,64,0.0001449585
+Shell Sort-random,64,0.0002138615
+Selection Sort-random,64,0.0001540184
+Heap Sort-random,64,0.0002601147
+Quick Sort Left-random,64,0.0000989437
+Quick Sort Random-random,64,0.0002360344
+Insertion Sort-random,128,0.0004649162
+Shell Sort-random,128,0.0001502037
+Selection Sort-random,128,0.0004887581
+Heap Sort-random,128,0.0002729893
+Quick Sort Left-random,128,0.0001699924
+Quick Sort Random-random,128,0.0002229214
+Insertion Sort-random,256,0.0015850067
+Shell Sort-random,256,0.0004849434
+Selection Sort-random,256,0.0014271736
+Heap Sort-random,256,0.0004453659
+Quick Sort Left-random,256,0.0002601147
+Quick Sort Random-random,256,0.0003440380
+Insertion Sort-random,512,0.0043060780
+Shell Sort-random,512,0.0005390644
+Selection Sort-random,512,0.0040209293
+Heap Sort-random,512,0.0007691383
+Quick Sort Left-random,512,0.0004248619
+Quick Sort Random-random,512,0.0005471706
+Insertion Sort-random,1024,0.0135929585
+Shell Sort-random,1024,0.0009298325
+Selection Sort-random,1024,0.0358040333
+Heap Sort-random,1024,0.0014243126
+Quick Sort Left-random,1024,0.0009369850
+Quick Sort Random-random,1024,0.0013978481
+Insertion Sort-random,2048,0.0545959473
+Shell Sort-random,2048,0.0022201538
+Selection Sort-random,2048,0.0461220741
+Heap Sort-random,2048,0.0030760765
+Quick Sort Left-random,2048,0.0017061234
+Quick Sort Random-random,2048,0.0021650791
+Insertion Sort-random,4096,0.2138407230
+Shell Sort-random,4096,0.0046846867
+Selection Sort-random,4096,0.1823709011
+Heap Sort-random,4096,0.0066790581
+Quick Sort Left-random,4096,0.0039107800
+Quick Sort Random-random,4096,0.0046167374
+Insertion Sort-random,8192,0.8913950920
+Shell Sort-random,8192,0.0109398365
+Selection Sort-random,8192,0.7709438801
+Heap Sort-random,8192,0.0152230263
+Quick Sort Left-random,8192,0.0082681179
+Quick Sort Random-random,8192,0.0108292103
+Insertion Sort-random,16384,3.6711308956
+Shell Sort-random,16384,0.0221929550
+Selection Sort-random,16384,2.9946320057
+Heap Sort-random,16384,0.0330069065
+Quick Sort Left-random,16384,0.0190980434
+Quick Sort Random-random,16384,0.0244829655
+Insertion Sort-random,32768,15.0039701462
+Shell Sort-random,32768,0.0473442078
+Selection Sort-random,32768,11.9519181252
+Heap Sort-random,32768,0.0726242065
+Quick Sort Left-random,32768,0.0508298874
+Quick Sort Random-random,32768,0.0601279736
+Insertion Sort-random,65536,60.6800131798
+Shell Sort-random,65536,0.0963730812
+Selection Sort-random,65536,48.5016760826
+Heap Sort-random,65536,0.1577429771
+Quick Sort Left-random,65536,0.1377959251
+Quick Sort Random-random,65536,0.1624369621
+Insertion Sort-random,131072,243.9854850769
+Shell Sort-random,131072,0.2109301090
+Selection Sort-random,131072,193.8100409508
+Heap Sort-random,131072,0.3547921181
+Quick Sort Left-random,131072,0.4450500011
+Quick Sort Random-random,131072,0.5790901184

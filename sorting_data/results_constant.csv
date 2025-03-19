@@ -1,0 +1,103 @@
+Algorithm,Size,Time
+Insertion Sort-constant,2,0.0000021458
+Shell Sort-constant,2,0.0000050068
+Selection Sort-constant,2,0.0000019073
+Heap Sort-constant,2,0.0000026226
+Quick Sort Left-constant,2,0.0000026226
+Quick Sort Random-constant,2,0.0000050068
+Insertion Sort-constant,4,0.0000026226
+Shell Sort-constant,4,0.0000028610
+Selection Sort-constant,4,0.0000028610
+Heap Sort-constant,4,0.0000042915
+Quick Sort Left-constant,4,0.0000042915
+Quick Sort Random-constant,4,0.0000069141
+Insertion Sort-constant,8,0.0000021458
+Shell Sort-constant,8,0.0000050068
+Selection Sort-constant,8,0.0000050068
+Heap Sort-constant,8,0.0000050068
+Quick Sort Left-constant,8,0.0000069141
+Quick Sort Random-constant,8,0.0000119209
+Insertion Sort-constant,16,0.0000038147
+Shell Sort-constant,16,0.0000069141
+Selection Sort-constant,16,0.0000109673
+Heap Sort-constant,16,0.0000092983
+Quick Sort Left-constant,16,0.0000140667
+Quick Sort Random-constant,16,0.0000262260
+Insertion Sort-constant,32,0.0000100136
+Shell Sort-constant,32,0.0000159740
+Selection Sort-constant,32,0.0000331402
+Heap Sort-constant,32,0.0000419617
+Quick Sort Left-constant,32,0.0000767708
+Quick Sort Random-constant,32,0.0001008511
+Insertion Sort-constant,64,0.0000100136
+Shell Sort-constant,64,0.0000379086
+Selection Sort-constant,64,0.0001800060
+Heap Sort-constant,64,0.0000689030
+Quick Sort Left-constant,64,0.0002570152
+Quick Sort Random-constant,64,0.0003268719
+Insertion Sort-constant,128,0.0000150204
+Shell Sort-constant,128,0.0000429153
+Selection Sort-constant,128,0.0002911091
+Heap Sort-constant,128,0.0000469685
+Quick Sort Left-constant,128,0.0005528927
+Quick Sort Random-constant,128,0.0007522106
+Insertion Sort-constant,256,0.0000228882
+Shell Sort-constant,256,0.0000629425
+Selection Sort-constant,256,0.0008819103
+Heap Sort-constant,256,0.0000708103
+Quick Sort Left-constant,256,0.0013639927
+Quick Sort Random-constant,256,0.0018470287
+Insertion Sort-constant,512,0.0000369549
+Shell Sort-constant,512,0.0001149178
+Selection Sort-constant,512,0.0027668476
+Heap Sort-constant,512,0.0001058578
+Quick Sort Left-constant,512,0.0038259029
+Quick Sort Random-constant,512,0.0044920444
+Insertion Sort-constant,1024,0.0000641346
+Shell Sort-constant,1024,0.0002508163
+Selection Sort-constant,1024,0.0107820034
+Heap Sort-constant,1024,0.0002169609
+Quick Sort Left-constant,1024,0.0148787498
+Quick Sort Random-constant,1024,0.0158689022
+Insertion Sort-constant,2048,0.0001270771
+Shell Sort-constant,2048,0.0005471706
+Selection Sort-constant,2048,0.0418119431
+Heap Sort-constant,2048,0.0004341602
+Quick Sort Left-constant,2048,0.0593011379
+Quick Sort Random-constant,2048,0.0616178513
+Insertion Sort-constant,4096,0.0002548695
+Shell Sort-constant,4096,0.0013489723
+Selection Sort-constant,4096,0.1682498455
+Heap Sort-constant,4096,0.0008320808
+Quick Sort Left-constant,4096,0.2388319969
+Quick Sort Random-constant,4096,0.2519791126
+Insertion Sort-constant,8192,0.0005218983
+Shell Sort-constant,8192,0.0025680065
+Selection Sort-constant,8192,0.6770389080
+Heap Sort-constant,8192,0.0016541481
+Quick Sort Left-constant,8192,1.0025589466
+Quick Sort Random-constant,8192,0.9869477749
+Insertion Sort-constant,16384,0.0010521412
+Shell Sort-constant,16384,0.0055947304
+Selection Sort-constant,16384,2.7835891247
+Heap Sort-constant,16384,0.0034868717
+Quick Sort Left-constant,16384,3.9558887482
+Quick Sort Random-constant,16384,4.0001070499
+Insertion Sort-constant,32768,0.0021297932
+Shell Sort-constant,32768,0.0120699406
+Selection Sort-constant,32768,10.8953957558
+Heap Sort-constant,32768,0.0066518784
+Quick Sort Left-constant,32768,16.0093262196
+Quick Sort Random-constant,32768,16.0639390945
+Insertion Sort-constant,65536,0.0043699741
+Shell Sort-constant,65536,0.0263049603
+Selection Sort-constant,65536,44.4143779278
+Heap Sort-constant,65536,0.0133347511
+Quick Sort Left-constant,65536,65.3344249725
+Quick Sort Random-constant,65536,63.6007380486
+Insertion Sort-constant,131072,0.0088620186
+Shell Sort-constant,131072,0.0548248291
+Selection Sort-constant,131072,197.6878678799
+Heap Sort-constant,131072,0.0264792442
+Quick Sort Left-constant,131072,256.3667912483
+Quick Sort Random-constant,131072,252.3834800720

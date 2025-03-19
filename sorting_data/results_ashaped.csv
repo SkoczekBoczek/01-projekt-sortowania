@@ -1,0 +1,103 @@
+Algorithm,Size,Time
+Insertion Sort-ashaped,2,0.0000019073
+Shell Sort-ashaped,2,0.0000026226
+Selection Sort-ashaped,2,0.0000019073
+Heap Sort-ashaped,2,0.0000030994
+Quick Sort Left-ashaped,2,0.0000021458
+Quick Sort Random-ashaped,2,0.0000040531
+Insertion Sort-ashaped,4,0.0000040531
+Shell Sort-ashaped,4,0.0000050068
+Selection Sort-ashaped,4,0.0000030994
+Heap Sort-ashaped,4,0.0000052452
+Quick Sort Left-ashaped,4,0.0000050068
+Quick Sort Random-ashaped,4,0.0000071526
+Insertion Sort-ashaped,8,0.0000040531
+Shell Sort-ashaped,8,0.0000059605
+Selection Sort-ashaped,8,0.0000047684
+Heap Sort-ashaped,8,0.0000102520
+Quick Sort Left-ashaped,8,0.0000059605
+Quick Sort Random-ashaped,8,0.0000100136
+Insertion Sort-ashaped,16,0.0000100136
+Shell Sort-ashaped,16,0.0000088215
+Selection Sort-ashaped,16,0.0000100136
+Heap Sort-ashaped,16,0.0000181198
+Quick Sort Left-ashaped,16,0.0000119209
+Quick Sort Random-ashaped,16,0.0000193119
+Insertion Sort-ashaped,32,0.0000400543
+Shell Sort-ashaped,32,0.0000257492
+Selection Sort-ashaped,32,0.0000410080
+Heap Sort-ashaped,32,0.0001058578
+Quick Sort Left-ashaped,32,0.0000531673
+Quick Sort Random-ashaped,32,0.0000739098
+Insertion Sort-ashaped,64,0.0001192093
+Shell Sort-ashaped,64,0.0000450611
+Selection Sort-ashaped,64,0.0001168251
+Heap Sort-ashaped,64,0.0001368523
+Quick Sort Left-ashaped,64,0.0000798702
+Quick Sort Random-ashaped,64,0.0001440048
+Insertion Sort-ashaped,128,0.0003840923
+Shell Sort-ashaped,128,0.0000848770
+Selection Sort-ashaped,128,0.0003688335
+Heap Sort-ashaped,128,0.0002200603
+Quick Sort Left-ashaped,128,0.0001661777
+Quick Sort Random-ashaped,128,0.0002019405
+Insertion Sort-ashaped,256,0.0010461807
+Shell Sort-ashaped,256,0.0001358986
+Selection Sort-ashaped,256,0.0010108948
+Heap Sort-ashaped,256,0.0004019737
+Quick Sort Left-ashaped,256,0.0002837181
+Quick Sort Random-ashaped,256,0.0002758503
+Insertion Sort-ashaped,512,0.0032951832
+Shell Sort-ashaped,512,0.0002439022
+Selection Sort-ashaped,512,0.0029788017
+Heap Sort-ashaped,512,0.0006968975
+Quick Sort Left-ashaped,512,0.0005249977
+Quick Sort Random-ashaped,512,0.0004580021
+Insertion Sort-ashaped,1024,0.0135660172
+Shell Sort-ashaped,1024,0.0005192757
+Selection Sort-ashaped,1024,0.0119118690
+Heap Sort-ashaped,1024,0.0014128685
+Quick Sort Left-ashaped,1024,0.0011279583
+Quick Sort Random-ashaped,1024,0.0009169579
+Insertion Sort-ashaped,2048,0.0539560318
+Shell Sort-ashaped,2048,0.0011129379
+Selection Sort-ashaped,2048,0.0476698875
+Heap Sort-ashaped,2048,0.0030572414
+Quick Sort Left-ashaped,2048,0.0025889874
+Quick Sort Random-ashaped,2048,0.0019867420
+Insertion Sort-ashaped,4096,0.2201461792
+Shell Sort-ashaped,4096,0.0025169849
+Selection Sort-ashaped,4096,0.1836812496
+Heap Sort-ashaped,4096,0.0068869591
+Quick Sort Left-ashaped,4096,0.0061509609
+Quick Sort Random-ashaped,4096,0.0041699409
+Insertion Sort-ashaped,8192,0.9221701622
+Shell Sort-ashaped,8192,0.0087296963
+Selection Sort-ashaped,8192,0.7694416046
+Heap Sort-ashaped,8192,0.0150961876
+Quick Sort Left-ashaped,8192,0.0136497021
+Quick Sort Random-ashaped,8192,0.0092840195
+Insertion Sort-ashaped,16384,3.6214699745
+Shell Sort-ashaped,16384,0.0115818977
+Selection Sort-ashaped,16384,2.9276232719
+Heap Sort-ashaped,16384,0.0335271358
+Quick Sort Left-ashaped,16384,0.0312900543
+Quick Sort Random-ashaped,16384,0.0194849968
+Insertion Sort-ashaped,32768,14.2582340240
+Shell Sort-ashaped,32768,0.0244088173
+Selection Sort-ashaped,32768,11.7447659969
+Heap Sort-ashaped,32768,0.0857532024
+Quick Sort Left-ashaped,32768,0.0706040859
+Quick Sort Random-ashaped,32768,0.0402419567
+Insertion Sort-ashaped,65536,57.5752856731
+Shell Sort-ashaped,65536,0.0520579815
+Selection Sort-ashaped,65536,46.9372038841
+Heap Sort-ashaped,65536,0.1517162323
+Quick Sort Left-ashaped,65536,0.1538312435
+Quick Sort Random-ashaped,65536,0.0856237411
+Insertion Sort-ashaped,131072,228.2766880989
+Shell Sort-ashaped,131072,0.1096348763
+Selection Sort-ashaped,131072,185.9467809200
+Heap Sort-ashaped,131072,0.3233778477
+Quick Sort Left-ashaped,131072,0.3397612572
+Quick Sort Random-ashaped,131072,0.1776969433

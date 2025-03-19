@@ -1,0 +1,103 @@
+Algorithm,Size,Time
+Insertion Sort-reversed,2,0.0000030994
+Shell Sort-reversed,2,0.0000040531
+Selection Sort-reversed,2,0.0000021458
+Heap Sort-reversed,2,0.0000030994
+Quick Sort Left-reversed,2,0.0000040531
+Quick Sort Random-reversed,2,0.0000071526
+Insertion Sort-reversed,4,0.0000040531
+Shell Sort-reversed,4,0.0000050068
+Selection Sort-reversed,4,0.0000030994
+Heap Sort-reversed,4,0.0000050068
+Quick Sort Left-reversed,4,0.0000047684
+Quick Sort Random-reversed,4,0.0000059605
+Insertion Sort-reversed,8,0.0000069141
+Shell Sort-reversed,8,0.0000131130
+Selection Sort-reversed,8,0.0000061989
+Heap Sort-reversed,8,0.0000097752
+Quick Sort Left-reversed,8,0.0000092983
+Quick Sort Random-reversed,8,0.0000109673
+Insertion Sort-reversed,16,0.0000197887
+Shell Sort-reversed,16,0.0000131130
+Selection Sort-reversed,16,0.0000109673
+Heap Sort-reversed,16,0.0000178814
+Quick Sort Left-reversed,16,0.0000183582
+Quick Sort Random-reversed,16,0.0000200272
+Insertion Sort-reversed,32,0.0000529289
+Shell Sort-reversed,32,0.0000200272
+Selection Sort-reversed,32,0.0000288486
+Heap Sort-reversed,32,0.0000369549
+Quick Sort Left-reversed,32,0.0000472069
+Quick Sort Random-reversed,32,0.0001032352
+Insertion Sort-reversed,64,0.0003249645
+Shell Sort-reversed,64,0.0000691414
+Selection Sort-reversed,64,0.0000948906
+Heap Sort-reversed,64,0.0000860691
+Quick Sort Left-reversed,64,0.0003981590
+Quick Sort Random-reversed,64,0.0004012585
+Insertion Sort-reversed,128,0.0008788109
+Shell Sort-reversed,128,0.0000858307
+Selection Sort-reversed,128,0.0004611015
+Heap Sort-reversed,128,0.0002098083
+Quick Sort Left-reversed,128,0.0006380081
+Quick Sort Random-reversed,128,0.0001788139
+Insertion Sort-reversed,256,0.0024900436
+Shell Sort-reversed,256,0.0001549721
+Selection Sort-reversed,256,0.0010888577
+Heap Sort-reversed,256,0.0003497601
+Quick Sort Left-reversed,256,0.0016949177
+Quick Sort Random-reversed,256,0.0002717972
+Insertion Sort-reversed,512,0.0069398880
+Shell Sort-reversed,512,0.0003039837
+Selection Sort-reversed,512,0.0034267902
+Heap Sort-reversed,512,0.0005929470
+Quick Sort Left-reversed,512,0.0044879913
+Quick Sort Random-reversed,512,0.0004320145
+Insertion Sort-reversed,1024,0.0256478786
+Shell Sort-reversed,1024,0.0005669594
+Selection Sort-reversed,1024,0.0121102333
+Heap Sort-reversed,1024,0.0012507439
+Quick Sort Left-reversed,1024,0.0164160728
+Quick Sort Random-reversed,1024,0.0008242130
+Insertion Sort-reversed,2048,0.1036252975
+Shell Sort-reversed,2048,0.0011811256
+Selection Sort-reversed,2048,0.0470719337
+Heap Sort-reversed,2048,0.0028300285
+Quick Sort Left-reversed,2048,0.0629959106
+Quick Sort Random-reversed,2048,0.0016028881
+Insertion Sort-reversed,4096,0.4267809391
+Shell Sort-reversed,4096,0.0028929710
+Selection Sort-reversed,4096,0.1885859966
+Heap Sort-reversed,4096,0.0061581135
+Quick Sort Left-reversed,4096,0.2466571331
+Quick Sort Random-reversed,4096,0.0034990311
+Insertion Sort-reversed,8192,1.7901670933
+Shell Sort-reversed,8192,0.0060129166
+Selection Sort-reversed,8192,0.7768518925
+Heap Sort-reversed,8192,0.0139350891
+Quick Sort Left-reversed,8192,1.0925698280
+Quick Sort Random-reversed,8192,0.0079619884
+Insertion Sort-reversed,16384,7.2381348610
+Shell Sort-reversed,16384,0.0126280785
+Selection Sort-reversed,16384,3.0968389511
+Heap Sort-reversed,16384,0.0307083130
+Quick Sort Left-reversed,16384,4.1230797768
+Quick Sort Random-reversed,16384,0.0158069134
+Insertion Sort-reversed,32768,28.6971111298
+Shell Sort-reversed,32768,0.0266900063
+Selection Sort-reversed,32768,12.1182899475
+Heap Sort-reversed,32768,0.0664148331
+Quick Sort Left-reversed,32768,16.2604758739
+Quick Sort Random-reversed,32768,0.0326118469
+Insertion Sort-reversed,65536,115.8688137531
+Shell Sort-reversed,65536,0.0658841133
+Selection Sort-reversed,65536,48.4952838421
+Heap Sort-reversed,65536,0.1429209709
+Quick Sort Left-reversed,65536,65.3087449074
+Quick Sort Random-reversed,65536,0.0789408684
+Insertion Sort-reversed,131072,461.1325750351
+Shell Sort-reversed,131072,0.1226091385
+Selection Sort-reversed,131072,190.9782948494
+Heap Sort-reversed,131072,0.3076901436
+Quick Sort Left-reversed,131072,215.9105880260
+Quick Sort Random-reversed,131072,0.1391451359
