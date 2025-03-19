@@ -73,17 +73,17 @@ def heapSort(array):
         heapify(array, i, 0)
     return array
 
-# Quick sort left
+# Quick sort left - podział Hoare’a ✅  (❌ Lomuto Partition ❌)
 def quickSortLeft(array):
     arr = array.copy()
     _quickSortLeft(arr, 0, len(arr) - 1)
     return arr 
 
 def _quickSortLeft(array, low, high):
-    if low < high:
-        pivotIndex = partitionLeft(array, low, high)
-        _quickSortLeft(array, low, pivotIndex - 1)
-        _quickSortLeft(array, pivotIndex + 1, high)
+    if low < high: # Jeśli jest więcej niż 1 element, wykonujemy sortowanie
+        pivotIndex = partitionLeft(array, low, high) # Dzielimy tablicę
+        _quickSortLeft(array, low, pivotIndex - 1) # Sortujemy lewą część
+        _quickSortLeft(array, pivotIndex + 1, high) # Sortujemy prawą część
 
 def partitionLeft(array, low, high):
     pivot = array[low]
@@ -91,16 +91,16 @@ def partitionLeft(array, low, high):
     j = high
     while True:
         while i <= j and array[i] <= pivot:
-            i += 1
+            i += 1 # Szukamy pierwszego elementu większego niż pivot po lewej stronie
         while i <= j and array[j] > pivot:
-            j -= 1
+            j -= 1 # Szukamy pierwszego elementu mniejszego niż pivot po prawej stronie
         if i >= j:
             break
-        array[i], array[j] = array[j], array[i]
-    array[low], array[j] = array[j], array[low]
+        array[i], array[j] = array[j], array[i] # Wieksze na prawo mniejsze na lewo
+    array[low], array[j] = array[j], array[low] # Pivocik jest przesuwany 
     return j
 
-# Quick sort random
+# Quick sort random - podział Hoare’a ✅  (❌ Lomuto Partition ❌)
 def quickSortRandom(array):
     arr = array.copy()
     _quickSortRandom(arr, 0, len(arr) - 1)
@@ -114,8 +114,8 @@ def _quickSortRandom(array, low, high):
 
 def partitionRandom(array, low, high):
     pivotIndex = random.randint(low, high)
-    array[low], array[pivotIndex] = array[pivotIndex], array[low]
-    pivot = array[low]
+    array[low], array[pivotIndex] = array[pivotIndex], array[low] # pivocik leci na poczatek 
+    pivot = array[low] # Ustawiamy pivocika jako pierwszy element
     i = low + 1
     j = high
     while True:
@@ -127,4 +127,4 @@ def partitionRandom(array, low, high):
             break
         array[i], array[j] = array[j], array[i]
     array[low], array[j] = array[j], array[low]
-    return j
+    return j 

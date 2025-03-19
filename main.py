@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(50000)
+sys.setrecursionlimit(200000)
 
 import os
 import json
@@ -9,8 +9,8 @@ from time_measurement import TimeMeasure
 from sorting_algorithms import insertionSort, shellSort, selectionSort, heapSort, quickSortLeft, quickSortRandom
 
 typesOfSort = ["random", "sorted", "reversed", "constant", "ashaped"]
-sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768]
-# sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
+# sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072]
+sizes = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
 
 algorithms = {
     "Insertion Sort": insertionSort,
@@ -27,16 +27,17 @@ plotFolder = "wykresy"
 
 # ===== TWORZENIE WYKRESÓW =====
 def generate_plots():
+    lineStyles = ['-', '--', ':', '-.']
     if not os.path.exists(plotFolder):
         os.makedirs(plotFolder)
         print(f"Utworzono folder: {plotFolder}")
-        
+
     for type in typesOfSort:
         filepath = os.path.join(resultFolder, f"results_{type}.csv")
         df = pd.read_csv(filepath)
-        for algorithm in df["Algorithm"].unique():
-            algorithmData = (df[df["Algorithm"] == algorithm])
-            plt.plot(algorithmData["Size"], algorithmData["Time"], marker='o', label=algorithm)
+        for i, algorithm in enumerate(df["Algorithm"].unique()):
+            algorithmData = (df[df["Algorithm"] == algorithm]) # Podzielone na algorytm i typ 
+            plt.plot(algorithmData["Size"], algorithmData["Time"], marker='o', linestyle=lineStyles[i % len(lineStyles)], label=algorithm)
 
         plt.xlabel("Liczba elementów")
         plt.ylabel("Czas (s)") 
@@ -44,8 +45,10 @@ def generate_plots():
         plt.legend()
         plt.grid(True) #siatka
 
-        plotFolderPath = os.path.join(plotFolder, f"wykres_{type}")
-        plt.savefig(plotFolderPath)
+        plotFolderPath = os.path.join(plotFolder, f"wykres_{type}.svg")
+        plt.savefig(plotFolderPath, format='svg')
+        plotFolderPath2 = os.path.join(plotFolder, f"wykres_{type}.png")
+        plt.savefig(plotFolderPath2, format='png')
         plt.close()
         print(f"Wykres zapisano do folderu {plotFolderPath}")
 
@@ -96,7 +99,7 @@ def main():
         with open(filename, "r") as f:
             dataArray = json.load(f)
 
-        print(f"{chosenAlgorithm} - {chosenType}")
+        print(f"{list(algorithms.keys())[chooseAlgorithm]} - {chosenType}")
         print(f"\nPrzed sortowaniem: {dataArray}")
         sortedDataArray = chosenAlgorithm(dataArray)
         print(f"Po sortowaniu: {sortedDataArray}")
@@ -120,7 +123,9 @@ def main():
 
         groupedData = {}
         for row in data:
+            # print(row)
             algorithmType = row[0]
+            # print(algorithmType)
             type = algorithmType.split("-")[1]
             if type not in groupedData:
                 groupedData[type] = []
